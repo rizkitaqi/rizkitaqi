@@ -1,0 +1,232 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #0a0a0a;
+  z-index: 1000;
+  padding: 0.8rem 0;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #4fc3f7;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f8fa;
+    color: #333;
+  }
+  
+  header {
+    background: #0d1117;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .profile-card {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+  
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .skills, .contact {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .skills ul {
+    display: flex; /* ini yang bikin horizontal */
+    flex-wrap: wrap; /* biar responsif */
+    justify-content: center; /* tengahin */
+    gap: 1rem; /* kasih jarak antar item */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills ul li {
+    background: #2a2a2a; /* warna kotaknya */
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.04);
+    white-space: nowrap; /* biar text-nya nggak pecah ke bawah */
+    color: white;
+  }
+  
+  
+  
+  .contact a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #eee;
+    font-size: 0.9rem;
+  }
+  
+  .projects {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .project-card a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .goals {
+    .goals {
+        max-width: 800px;
+        margin: 3rem auto;
+        padding: 2rem;
+        background: white;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        transform: translateZ(0);
+      }
+      
+  
+    /* Efek elevation */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transform: translateZ(0);
+  }
+   
+  
+  
+  .goals h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: #222;
+  }
+  
+  .goals ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* bikin semua <li> rata tengah */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  
+  .goals li {
+    background: #f9fafb;
+    margin: 0.5rem 0;
+    padding: 0.85rem 1.2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  
+    width: 100%;           /* ini penting! */
+    max-width: 500px;      /* biar rapi tengah dan gak terlalu lebar */
+    text-align: left;      /* biar isinya tetap rapi ke kiri */
+  }
+  
+  
+  
+
+  body {
+    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  @media (max-width: 600px) {
+    .goals {
+      margin: 2rem 1rem;
+      padding: 1.5rem;
+    }
+  
+    .goals h2 {
+      font-size: 1.5rem;
+    }
+  
+    .goals li {
+      font-size: 0.95rem;
+      padding: 0.75rem 1rem;
+    }
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .goals {
+    animation: fadeIn 0.7s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
